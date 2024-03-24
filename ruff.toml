@@ -1,0 +1,9 @@
+line-length = 98
+target-version = "py311"
+
+[lint]
+unfixable = ["S"]
+ignore-init-module-imports = true
+
+[lint.per-file-ignores]
+"__init__.py" = ["F401"]
